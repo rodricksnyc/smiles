@@ -164,22 +164,22 @@ fieldset {
 }
 
 .red{
-  background-image: url(../images/red.svg);
+  background-image: url(../images/rating-02.svg);
 }
 .orange{
-  background-image: url(../images/orange.svg);
+  background-image: url(../images/rating-03.svg);
 }
 
 .gold{
-  background-image: url(../images/gold.svg);
+  background-image: url(../images/rating-04.svg);
 }
 
 .lime{
-  background-image: url(../images/lime.svg);
+  background-image: url(../images/rating-05.svg);
 }
 
 .jellybean{
-  background-image: url(../images/jellybean.svg);
+  background-image: url(../images/rating-06.svg);
 }
 
 
