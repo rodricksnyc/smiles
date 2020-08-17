@@ -24,10 +24,36 @@ p, legend{
   margin-bottom:0em;
 }
 
-/* .form-check:nth-child(1){
-border-bottom: 10px solid #ff3b2d;
+.customButton1 {
+  border-radius: 0 !important;
+  box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+  display: inline-block;
+  font-weight: 500;
+  font-size: .875rem;
+  padding: .55rem 1.25rem;
+  position: relative;
+  outline: none !important;
+  text-transform: uppercase;
+  background: rgb(255,59,45);
+  background: linear-gradient(90deg, rgba(255,59,45,1) 57%, rgba(255,179,45,1) 92%);
+  margin-bottom:.6em;
+  width:8rem;
+  position: relative;
+  left:calc(50% - 4rem);
+  margin-top:2rem;
+  margin-bottom:4rem;
+  color:white;
+  border:none !important
+}
 
-} */
+.customButton1:hover {
+  background: rgb(255,178,40);
+  background: linear-gradient(90deg, rgba(255,178,40,1) 57%, rgba(255,224,40,1) 92%);
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 .form-check:nth-child(1)::after{
   content:'';
   position:absolute;
@@ -83,6 +109,10 @@ border-bottom: 10px solid #ff3b2d;
   border-radius:0 10px 10px 0;
 }
 
+.m5 {
+  margin-top:5em;
+  margin-bottom: 1em
+}
 
 /* .form-check:nth-child(2){
 border-bottom: 10px solid #ffb228;
