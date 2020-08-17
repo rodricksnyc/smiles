@@ -134,6 +134,26 @@ border-bottom: 10px solid #79d047;
 
 } */
 
+.toast {
+
+  color: white;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding: 1.25em;
+  position: fixed;
+  right: -400px;
+  top: 1em;
+  transition: 0.15s ease-in-out;
+  width: 400px;
+  height: 160px;
+
+  background: rgb(29,159,6);
+  background: linear-gradient(90deg, rgba(29,159,6,1) 57%, rgba(29,159,6,1) 92%);
+}
+
+.toast p {
+    font-size: 20px;
+}
 
 .form-check {
   padding-left:0rem;

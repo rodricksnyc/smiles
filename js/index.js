@@ -35,4 +35,31 @@ $("a, button, input, [tabIndex='0']").on('focusout', function() {
 })
 
 
+//toaster
+
+$('#submit').click(function (e) {
+
+    e.preventDefault()
+
+    setTimeout(function () {
+      $('.toast').css('right', '0px')
+      $('.toast').removeClass('transparent-opacity').addClass('animated slideInRight')
+    }, 300)
+
+    setTimeout(function () {
+      $('.toast').removeClass('transparent-opacity').removeClass('animated slideInRight')
+      $('.toast').addClass('transparent-opacity');
+      $('.toast').removeClass('animated slideOutRight')
+
+    }, 5000)
+    setTimeout(function () {
+      $('.toast').css('right', '-400px')
+      $('.toast').addClass('animated slideOutRight')
+    }, 4900)
+
+
+
+});
+
+
 })
