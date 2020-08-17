@@ -38,7 +38,7 @@ p, legend{
   width:8rem;
   position: relative;
   left:calc(50% - 4rem);
-  margin-top:2rem;
+  margin-top:1rem;
   margin-bottom:4rem;
   color:white;
   border:none !important;
@@ -152,7 +152,7 @@ border-bottom: 10px solid #79d047;
 }
 
 .toast p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .form-check {
