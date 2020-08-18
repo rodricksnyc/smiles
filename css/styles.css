@@ -142,7 +142,7 @@ border-bottom: 10px solid #79d047;
   padding: 1.25em 1em 1em 1em;
   position: fixed;
   right: -400px;
-  top: 1.5em;
+  bottom: 5%;
   transition: 0.15s ease-in-out;
   width: 400px;
   height: auto;
