@@ -138,21 +138,24 @@ border-bottom: 10px solid #79d047;
 
   color: white;
   line-height: 1;
-  margin-bottom: 1em;
-  padding: 1.25em;
+  margin-bottom: 0em;
+  padding: 1.25em 1em 1em 1em;
   position: fixed;
   right: -400px;
-  top: 1em;
+  top: 1.5em;
   transition: 0.15s ease-in-out;
   width: 400px;
-  height: 140px;
+  height: auto;
 
   background: rgb(29,159,6);
   background: linear-gradient(90deg, rgba(29,159,6,1) 57%, rgba(29,159,6,1) 92%);
 }
 
 .toast p {
-    font-size: 19px;
+  font-size: 17px;
+  letter-spacing: .04em;
+  margin-bottom: .5em;
+
 }
 
 .form-check {
@@ -307,6 +310,8 @@ right: -12px;
   margin-top: 2em;
   position: absolute;
 }
+
+
 
 
 @media (max-width:767px) {
