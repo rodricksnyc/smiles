@@ -166,7 +166,7 @@ border-bottom: 10px solid #79d047;
 
 .form-check {
   padding-left:0rem;
-  padding: 0em .2em;
+  padding: 0em .8em;
 }
 
 .jellybean:after {
@@ -178,8 +178,9 @@ border-bottom: 10px solid #79d047;
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
-  right:-1.5em;
-  top:calc(50% - 1.5rem)
+  right: -2em;
+  top: calc(50% - 1rem);
+
 
 }
 
@@ -192,8 +193,8 @@ border-bottom: 10px solid #79d047;
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
-  left:-1.5em;
-  top:calc(50% - 1.5rem)
+  left:-2em;
+  top:calc(50% - 1rem)
 
 }
 
