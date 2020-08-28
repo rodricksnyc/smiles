@@ -11,9 +11,58 @@ p, legend{
 
 }
 
+.logo {
+  max-width:6.5em;
+  padding:.2em 0em
+}
+.landing {
+  padding:.2em 1em;
+  -webkit-box-shadow: 0px 0px 14px 2px rgba(191,210,223,1);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(191,210,223,1);
+    box-shadow: 0px 0px 14px 2px rgba(191,210,223,1);
+background-color: #201c55;
+}
+
+.logos {
+  position: relative;
+}
+
+.purple{
+  color:white;
+font-family: 'Oswald', sans-serif;
+  font-weight:300;
+  font-size:40px;
+  margin:0em;
+
+}
+
+.flip {
+    background: white;
+    writing-mode: tb-rl;
+    width: 1px;
+    height: 53px;
+    margin-top: 0px;
+    margin: 0em 2em 0em 2em;
+    opacity: 1;
+}
+.goldColor{
+  color:#fdcb34;
+  font-weight:400;
+  font-size:23px;
+  font-family: 'Oswald', sans-serif;
+}
+
+header {
+      margin-bottom:6vh;
+}
+
+h1 {
+  margin-bottom:1em !important
+}
+
 .banner {
   width:100vw;
-  margin-bottom:3vh;
+
 }
 
 @media (min-width: 1200px) {
@@ -327,6 +376,33 @@ right: -12px;
 
 
 @media (max-width:767px) {
+
+
+  .logo {
+    max-width:5.5em
+  }
+
+  .flip {
+    height: 47px;
+    margin-top: 0px;
+    margin: 0em 1em 0em 0em;
+    opacity: 0;
+}
+header {
+    margin-bottom: 4vh;
+}
+h1 {
+    font-size: 1.7em !important;
+    margin-bottom: 1em !important;
+}
+
+.purple {
+  font-size:18px;
+}
+.goldColor {
+  font-size: 16px;
+  margin-top:5px;
+}
   .justify-content-center {
 
     flex-direction: column !important;
