@@ -11,6 +11,11 @@ p, legend{
 
 }
 
+.banner {
+  width:100vw;
+  margin-bottom:3vh;
+}
+
 @media (min-width: 1200px) {
 .container {
     max-width: 900px;
